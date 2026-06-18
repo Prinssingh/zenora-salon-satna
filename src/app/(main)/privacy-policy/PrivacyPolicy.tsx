@@ -71,7 +71,7 @@ const PrivacyPolicy: React.FC = () => {
                     }`}
                   >
                     <section.icon
-                      className={`w-4 h-4 flex-shrink-0 ${
+                      className={`w-4 h-4 shrink-0 ${
                         activeSection === section.id
                           ? "text-white"
                           : "text-golden"
@@ -145,7 +145,7 @@ const PrivacyPolicy: React.FC = () => {
                                     key={iIdx}
                                     className="flex items-start space-x-3"
                                   >
-                                    <CheckCircle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
+                                    <CheckCircle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
                                     <span className="text-gray-700 leading-relaxed">
                                       {item}
                                     </span>
@@ -173,31 +173,31 @@ const PrivacyPolicy: React.FC = () => {
               </p>
               <div className="grid sm:grid-cols-2 gap-6">
                 <div className="flex items-start space-x-3">
-                  <Mail className="w-5 h-5 text-amber-500 flex-shrink-0 mt-1" />
+                  <Mail className="w-5 h-5 text-amber-500 shrink-0 mt-1" />
                   <div>
                     <p className="font-semibold mb-1">Email</p>
                     <a
-                      href="mailto:privacy@brber.com"
+                      href="zenoraunisexfamilysalon@gmail.com"
                       className="text-amber-400 hover:text-golden"
                     >
-                      privacy@brber.com
+                     zenoraunisexfamilysalon@gmail.com
                     </a>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <Phone className="w-5 h-5 text-amber-500 flex-shrink-0 mt-1" />
+                  <Phone className="w-5 h-5 text-amber-500 shrink-0 mt-1" />
                   <div>
                     <p className="font-semibold mb-1">Phone</p>
                     <a
-                      href="tel:+9178853222"
+                      href="tel:+9197534 54519"
                       className="text-amber-400 hover:text-golden"
                     >
-                      +91-7885 3222
+                      +91-97534 54519
                     </a>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3 sm:col-span-2">
-                  <MapPin className="w-5 h-5 text-amber-500 flex-shrink-0 mt-1" />
+                  <MapPin className="w-5 h-5 text-amber-500 shrink-0 mt-1" />
                   <div>
                     <p className="font-semibold mb-1">Address</p>
                     <p className="text-gray-300">

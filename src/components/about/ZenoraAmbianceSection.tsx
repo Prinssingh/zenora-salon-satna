@@ -62,7 +62,7 @@ const ZenoraAmbianceSection: React.FC = () => {
   }, [isLightboxOpen, currentIndex]);
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-gray-50 via-gray-100 to-amber-100/30 py-16  px-2 sm:px-4 lg:px-8">
+    <section className="relative min-h-screen bg-linear-to-br from-gray-50 via-gray-100 to-amber-100/30 py-16  px-2 sm:px-4 lg:px-8">
       {/* Decorative Background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 -right-32 w-96 h-96 bg-golden/20 rounded-full blur-3xl"></div>
@@ -84,7 +84,7 @@ const ZenoraAmbianceSection: React.FC = () => {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-4">
             <span className="">
               INSIDE{" "}
-              <span className=" text-transparent bg-clip-text bg-gradient-to-r from-golden to-golden">
+              <span className=" text-transparent bg-clip-text bg-linear-to-r from-golden to-golden">
                 ZENORA
               </span>
             </span>
@@ -99,7 +99,7 @@ const ZenoraAmbianceSection: React.FC = () => {
             sets us apart
           </p>
 
-          <div className="w-20 h-1 bg-gradient-to-r from-transparent via-golden to-transparent mx-auto mt-6"></div>
+          <div className="w-20 h-1 bg-linear-to-r from-transparent via-golden to-transparent mx-auto mt-6"></div>
         </div>
 
         {/* Category Filter */}
@@ -110,8 +110,8 @@ const ZenoraAmbianceSection: React.FC = () => {
               onClick={() => setSelectedCategory(category.id)}
               className={`group flex items-center cursor-pointer space-x-2 px-6 py-3 rounded-xl font-semibold text-sm sm:text-base transition-all duration-300 transform hover:scale-105 ${
                 selectedCategory === category.id
-                  ? "bg-gradient-to-r from-golden to-golden text-white shadow-lg shadow-golden/50"
-                  : "bg-white text-gray-700 hover:bg-gray-50 border-1 border-gray-200 hover:border-golden"
+                  ? "bg-linear-to-r from-golden to-golden text-white shadow-lg shadow-golden/50"
+                  : "bg-white text-gray-700 hover:bg-gray-50 border border-gray-200 hover:border-golden"
               }`}
             >
               <category.icon
@@ -135,7 +135,7 @@ const ZenoraAmbianceSection: React.FC = () => {
               className="group relative cursor-pointer overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
             >
               {/* Image Container */}
-              <div className="relative aspect-[4/3] overflow-hidden bg-gray-900">
+              <div className="relative aspect-4/3 overflow-hidden bg-gray-900">
                 <img
                   src={item.thumbnail}
                   alt={item.title}
@@ -143,7 +143,7 @@ const ZenoraAmbianceSection: React.FC = () => {
                 />
 
                 {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500"></div>
+                <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500"></div>
 
                
 
@@ -197,9 +197,9 @@ const ZenoraAmbianceSection: React.FC = () => {
           ].map((feature, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl p-6 sm:p-8 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover:border-[1px] border-[0.5px] border-gray-200 hover:border-golden group"
+              className="bg-white rounded-2xl p-6 sm:p-8 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover:border border-[0.5px] border-gray-200 hover:border-golden group"
             >
-              <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-amber-100 to-golden rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 shadow-lg">
+              <div className="w-14 h-14 sm:w-16 sm:h-16 bg-linear-to-br from-amber-100 to-golden rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 shadow-lg">
                 <feature.icon className="w-7 h-7 sm:w-8 sm:h-8 text-golden" />
               </div>
               <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 group-hover:text-golden transition-colors duration-300">
@@ -254,7 +254,7 @@ const ZenoraAmbianceSection: React.FC = () => {
             />
 
             {/* Info Bar */}
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 to-transparent p-6 rounded-b-lg">
+            <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black/90 to-transparent p-6 rounded-b-lg">
               <span className="inline-block bg-golden text-white text-xs font-semibold px-3 py-1 rounded-full mb-2">
                 {selectedItem.category}
               </span>

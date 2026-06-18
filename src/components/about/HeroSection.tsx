@@ -1,3 +1,4 @@
+"use client"
 import hero from "@/assets/gallery/hero.jpeg"
 
 export default function HeroSection() {
@@ -9,7 +10,7 @@ export default function HeroSection() {
       <div className="relative lg:h-[40vh] h-[30vh] flex items-center">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0">
-          <div  className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/50 z-10"></div>
+          <div  className="absolute inset-0 bg-linear-to-r from-black/90 via-black/70 to-black/50 z-10"></div>
           <img
             src={hero.src}
             alt="Barbershop"

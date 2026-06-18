@@ -41,7 +41,7 @@ export default function BarbershopPricing() {
                 <img
                   src={pic1.src}
                   alt="Barber styling client"
-                  className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover"
+                  className="w-full h-56 sm:h-64 md:h-80 lg:h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
               </motion.div>
@@ -57,7 +57,7 @@ export default function BarbershopPricing() {
                 <img
                   src={pic2.src}
                   alt="Barber trimming beard"
-                  className="w-full h-56 sm:h-64 md:h-80 lg:h-96 object-cover border-4 border-golden"
+                  className="w-full h-56 sm:h-64 md:h-80 lg:h-full object-cover border-4 border-golden"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
               </motion.div>

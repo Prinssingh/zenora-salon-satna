@@ -61,7 +61,7 @@ export default function NewsletterSection() {
           sent straight to your inbox.
         </p>
 
-         <div className="flex flex-col sm:flex-row justify-center gap-4">
+         {/* <div className="flex flex-col sm:flex-row justify-center gap-4">
           <a
             href="/book"
             className="bg-black/80 hover:bg-black text-white font-bold py-3 px-10 rounded-lg uppercase tracking-wide transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
@@ -75,7 +75,7 @@ export default function NewsletterSection() {
           >
             Book Now
           </a>
-        </div> 
+        </div>  */}
       </div>
     </div>
   );

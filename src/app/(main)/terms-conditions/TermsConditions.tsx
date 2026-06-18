@@ -6,7 +6,7 @@ import { termsAndConditionsSections } from "@/lib/data";
 // /lib/data/termsSections.ts
 import { ShieldCheck, FileText, Globe, Handshake, AlertTriangle, Lock } from "lucide-react";
 
- 
+
 
 
 const TermsConditions: React.FC = () => {
@@ -29,96 +29,96 @@ const TermsConditions: React.FC = () => {
     }
   };
 
-//   const termsSections = [
-//   {
-//     id: "introduction",
-//     title: "Introduction",
-//     icon: FileText,
-//     content: [
-//       "Welcome to BRBER. By accessing or using our website and services, you agree to be bound by these Terms & Conditions.",
-//       "Please read these terms carefully before using our platform.",
-//     ],
-//   },
+  //   const termsSections = [
+  //   {
+  //     id: "introduction",
+  //     title: "Introduction",
+  //     icon: FileText,
+  //     content: [
+  //       "Welcome to BRBER. By accessing or using our website and services, you agree to be bound by these Terms & Conditions.",
+  //       "Please read these terms carefully before using our platform.",
+  //     ],
+  //   },
 
-//   {
-//     id: "use-of-services",
-//     title: "Use of Our Services",
-//     icon: ShieldCheck,
-//     content: [
-//       "Our services are provided solely for lawful purposes. You agree not to misuse, disrupt, or damage the platform.",
-//       "You must provide accurate information during registration or when booking appointments.",
-//     ],
-//     subsections: [
-//       {
-//         title: "User Responsibilities",
-//         content: [
-//           "Provide correct and updated details.",
-//           "Do not attempt to hack, reverse-engineer, or damage the website.",
-//           "Use the website only for personal and non-commercial purposes.",
-//         ],
-//       },
-//     ],
-//   },
+  //   {
+  //     id: "use-of-services",
+  //     title: "Use of Our Services",
+  //     icon: ShieldCheck,
+  //     content: [
+  //       "Our services are provided solely for lawful purposes. You agree not to misuse, disrupt, or damage the platform.",
+  //       "You must provide accurate information during registration or when booking appointments.",
+  //     ],
+  //     subsections: [
+  //       {
+  //         title: "User Responsibilities",
+  //         content: [
+  //           "Provide correct and updated details.",
+  //           "Do not attempt to hack, reverse-engineer, or damage the website.",
+  //           "Use the website only for personal and non-commercial purposes.",
+  //         ],
+  //       },
+  //     ],
+  //   },
 
-//   {
-//     id: "appointments",
-//     title: "Bookings & Appointments",
-//     icon: Handshake,
-//     content: [
-//       "By booking any service through our platform, you acknowledge that availability may depend on staff schedules.",
-//       "We reserve the right to cancel or reschedule appointments when necessary.",
-//     ],
-//     subsections: [
-//       {
-//         title: "Cancellation Policy",
-//         content: [
-//           "Users must notify us of cancellations at least 24 hours in advance.",
-//           "Failure to cancel in time may result in charges or penalties.",
-//         ],
-//       },
-//     ],
-//   },
+  //   {
+  //     id: "appointments",
+  //     title: "Bookings & Appointments",
+  //     icon: Handshake,
+  //     content: [
+  //       "By booking any service through our platform, you acknowledge that availability may depend on staff schedules.",
+  //       "We reserve the right to cancel or reschedule appointments when necessary.",
+  //     ],
+  //     subsections: [
+  //       {
+  //         title: "Cancellation Policy",
+  //         content: [
+  //           "Users must notify us of cancellations at least 24 hours in advance.",
+  //           "Failure to cancel in time may result in charges or penalties.",
+  //         ],
+  //       },
+  //     ],
+  //   },
 
-//   {
-//     id: "payments",
-//     title: "Payments & Billing",
-//     icon: Globe,
-//     content: [
-//       "All payments must be completed through supported payment methods.",
-//       "Prices for services may be updated periodically without prior notice.",
-//     ],
-//   },
+  //   {
+  //     id: "payments",
+  //     title: "Payments & Billing",
+  //     icon: Globe,
+  //     content: [
+  //       "All payments must be completed through supported payment methods.",
+  //       "Prices for services may be updated periodically without prior notice.",
+  //     ],
+  //   },
 
-//   {
-//     id: "limitations",
-//     title: "Limitations of Liability",
-//     icon: AlertTriangle,
-//     content: [
-//       "We are not liable for any indirect damages, loss of data, or service interruptions.",
-//       "Our total liability is limited to the amount paid by the user for the service.",
-//     ],
-//   },
+  //   {
+  //     id: "limitations",
+  //     title: "Limitations of Liability",
+  //     icon: AlertTriangle,
+  //     content: [
+  //       "We are not liable for any indirect damages, loss of data, or service interruptions.",
+  //       "Our total liability is limited to the amount paid by the user for the service.",
+  //     ],
+  //   },
 
-//   {
-//     id: "privacy",
-//     title: "Privacy & Data Protection",
-//     icon: Lock,
-//     content: [
-//       "Your personal data is handled according to our Privacy Policy.",
-//       "By using our services, you consent to the collection and use of your data as described.",
-//     ],
-//   },
+  //   {
+  //     id: "privacy",
+  //     title: "Privacy & Data Protection",
+  //     icon: Lock,
+  //     content: [
+  //       "Your personal data is handled according to our Privacy Policy.",
+  //       "By using our services, you consent to the collection and use of your data as described.",
+  //     ],
+  //   },
 
-//   {
-//     id: "changes",
-//     title: "Changes to Terms",
-//     icon: FileText,
-//     content: [
-//       "We reserve the right to update or modify these terms at any time.",
-//       "Continued use of our platform signifies acceptance of updated Terms & Conditions.",
-//     ],
-//   },
-// ];
+  //   {
+  //     id: "changes",
+  //     title: "Changes to Terms",
+  //     icon: FileText,
+  //     content: [
+  //       "We reserve the right to update or modify these terms at any time.",
+  //       "Continued use of our platform signifies acceptance of updated Terms & Conditions.",
+  //     ],
+  //   },
+  // ];
 
   return (
     <div className="min-h-screen bg-linear-to-br from-gray-50 via-white to-gray-100">
@@ -135,18 +135,16 @@ const TermsConditions: React.FC = () => {
                   <button
                     key={section.id}
                     onClick={() => scrollToSection(section.id)}
-                    className={`w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-left transition-all duration-300 group ${
-                      activeSection === section.id
+                    className={`w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-left transition-all duration-300 group ${activeSection === section.id
                         ? "bg-golden text-white shadow-lg shadow-amber-600/30"
                         : "text-gray-700 hover:bg-gray-100"
-                    }`}
+                      }`}
                   >
                     <section.icon
-                      className={`w-4 h-4 ${
-                        activeSection === section.id
+                      className={`w-4 h-4 ${activeSection === section.id
                           ? "text-white"
                           : "text-golden"
-                      }`}
+                        }`}
                     />
                     <span className="text-sm font-medium truncate">
                       {section.title}
@@ -250,10 +248,10 @@ const TermsConditions: React.FC = () => {
                   <div>
                     <p className="font-semibold mb-1">Phone</p>
                     <a
-                      href="tel:+1234567890"
+                      href="tel:+9197534 54519"
                       className="text-amber-400 hover:text-golden"
                     >
-                      +91-7885 3222
+                      +91-97534 54519
                     </a>
                   </div>
                 </div>

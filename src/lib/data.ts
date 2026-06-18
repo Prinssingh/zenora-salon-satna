@@ -13,10 +13,12 @@
 // ICON IMPORTS
 
 // ============================================================================
-import i1 from "@/assets/i1.png";
-import i2 from "@/assets/i2.png";
+// import i1 from "@/assets/i1.png";
+import i1 from "@/assets/gallery/gallery3.jpeg";
+import i4 from "@/assets/gallery/gallery4.webp";
+import i2 from "@/assets/gallery/gallery.webp";
 import i3 from "@/assets/gallery/gallery1.jpg";
-import i4 from "@/assets/i4.png";
+// import i4 from "@/assets/i4.png";
 import img1 from "@/assets/blog-details/thumbnail-1.jpg";
 import img2 from "@/assets/blog-details/thumbnail-2.jpg";
 import img3 from "@/assets/blog-details/thumbnail-3.jpg";
@@ -210,7 +212,7 @@ export const testimonials: Testimonial[] = [
 
 import gallery1 from "@/assets/gallery/gallery1.jpg";
 import gallery2 from "@/assets/male/hero1.png";
-import gallery5 from "@/assets/gallery/gallary2.jpeg";
+import gallery5 from "@/assets/gallery/gallery.webp";
 import gallery3 from "@/assets/about/watting.png";
 import gallery4 from "@/assets/gallery/hero.jpeg";
 import lighting from "@/assets/about/lighting.png";
@@ -654,9 +656,9 @@ export const FemaleSection: TeamMember[] = [
 ];
 
 // Male section
-import male from "@/assets/male/maleHero.png";
-import male1 from "@/assets/male/facial.png";
-import male2 from "@/assets/male/makeup.png";
+import male from "@/assets/male/male-one.png";
+import male1 from "@/assets/male/male-two.avif";
+import male2 from "@/assets/male/makeup.avif";
 import male3 from "@/assets/male/washboy.png";
 export const MaleSection: TeamMember[] = [
   {
@@ -1664,12 +1666,12 @@ export const aboutFeatures: AboutFeature[] = [
 export const galleryImages: GalleryImage[] = [
   {
     url: i1,
-    alt: "Precision haircut showcasing expert technique",
+    alt: "Vanity mirror reflecting expert haircut and styling",
     span: "md:row-span-2",
   },
   {
-    url: i2,
-    alt: "Professional hairstyling service in a luxury salon",
+    url: i4,
+    alt: "Professional hairstyling service with client seated on a luxurious salon sofa",
     span: "md:col-span-2",
   },
   {
@@ -1678,8 +1680,8 @@ export const galleryImages: GalleryImage[] = [
     span: "md:col-span-1",
   },
   {
-    url: i4,
-    alt: "Expert beard grooming and styling for a refined look",
+    url: i2,
+    alt: "Hand-held shower head for a refreshing rinse",
     span: "md:col-span-1",
   },
 ];
@@ -1902,7 +1904,7 @@ export const socials = [
   {
     Icon: Instagram,
     label: "Instagram",
-    url: "https://www.instagram.com/yourprofile/",
+    url: "https://www.instagram.com/zenoraunisexfamilysalon_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
   {
     Icon: JustdialIcon, // we’ll use Image here

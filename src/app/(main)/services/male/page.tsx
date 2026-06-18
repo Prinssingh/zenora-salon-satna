@@ -17,6 +17,7 @@ import {
 import { Metadata } from "next";
 import ManBarBerShopPricing from "@/components/services/mens/ManBarBerShopPricing";
 
+
 export const metadata: Metadata = {
   title:
     "Men's Salon Services | Zenora Unisex Salon Satna – Haircuts, Grooming, Beard Styling & Skin Care",

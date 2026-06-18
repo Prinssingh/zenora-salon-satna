@@ -4,8 +4,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { maleservices } from "@/lib/data";
-import pic1 from "@/assets/manBarBershop/man-bar1.jpeg"
-import pic2 from "@/assets/manBarBershop/man-bar2.jpeg"
+import pic1 from "@/assets/home/price-pic2.jpg"
+import pic2 from "@/assets/male/maleservice.jpg";
 
 export default function ManBarBerShopPricing() {
   return (
