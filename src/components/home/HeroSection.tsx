@@ -2,7 +2,8 @@
 import { ArrowRight } from "lucide-react";
 import React, { useEffect, useRef, useState } from "react";
 import { heroStats } from "@/lib/data";
-import heroImage from "@/assets/i3.png"
+import heroImage from "@/assets/i3.png";
+import ContactDialog from "../ContactDialog";
 export default function HeroSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
   // Use centralized data from data.ts
@@ -140,12 +141,14 @@ export default function HeroSection() {
               </div>
 
               {/* CTA Button */}
-              <div className="pt-8">
+              {/* <div className="pt-8">
                 <button className="group lg:w-auto w-full cursor-pointer bg-golden hover:bg-golden/90 text-white px-8 py-3 rounded-lg font-semibold text-base sm:text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-golden/50 flex items-center space-x-3">
                   <span>Begin Your Zenora Experience</span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
                 </button>
-              </div>
+              </div> */}
+
+              <ContactDialog />
 
               {/* Stats */}
               <div className="grid grid-cols-3 gap-6 pt-6 text-center sm:text-left">

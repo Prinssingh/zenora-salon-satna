@@ -657,8 +657,8 @@ export const FemaleSection: TeamMember[] = [
 
 // Male section
 import male from "@/assets/male/male-one.png";
-import male1 from "@/assets/male/male-two.avif";
-import male2 from "@/assets/male/makeup.avif";
+import male1 from "@/assets/male/male-two.png";
+import male2 from "@/assets/male/makeup-two.png";
 import male3 from "@/assets/male/washboy.png";
 export const MaleSection: TeamMember[] = [
   {

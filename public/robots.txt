@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://zenorasalon.com
+
+# Sitemaps
+Sitemap: https://zenorasalon.com/sitemap.xml
